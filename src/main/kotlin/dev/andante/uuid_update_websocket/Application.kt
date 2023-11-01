@@ -3,6 +3,7 @@ package dev.andante.uuid_update_websocket
 import io.ktor.serialization.kotlinx.json.json
 import io.ktor.server.application.Application
 import io.ktor.server.application.install
+import io.ktor.server.netty.EngineMain
 import io.ktor.server.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.server.routing.routing
 import io.ktor.server.websocket.WebSockets
@@ -21,7 +22,7 @@ import java.util.UUID
 private val logger = LoggerFactory.getLogger("Websocket")
 
 fun main(args: Array<String>) {
-    io.ktor.server.netty.EngineMain.main(args)
+    EngineMain.main(args)
 }
 
 @Suppress("unused")
