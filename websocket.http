@@ -1,0 +1,15 @@
+### UUID 1
+
+WEBSOCKET ws://localhost:8080/50c7e7c5-2407-4102-875f-e4b1f49ea61a
+
+### UUID 2
+
+WEBSOCKET ws://localhost:8080/cccb7f02-cfce-48ce-a4c3-1aae5f3fe571
+
+### UUID 2 Duplicate
+
+WEBSOCKET ws://localhost:8080/cccb7f02-cfce-48ce-a4c3-1aae5f3fe571
+
+### UUID 3
+
+WEBSOCKET ws://localhost:8080/069a79f4-44e9-4726-a5be-fca90e38aaf5
